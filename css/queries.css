@@ -1,0 +1,47 @@
+@media (max-width: 26em) {
+  body {
+    background-image: url("../images/bg-intro-mobile.png");
+  }
+
+  .grid-box {
+    grid-template-columns: 1fr;
+    max-width: 34rem;
+    margin: 9.6rem 0;
+  }
+
+  .text-col {
+    text-align: center;
+  }
+
+  .primary-heading {
+    font-size: 2.6rem;
+    padding: 0 2.4rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    line-height: 1.6;
+    margin-bottom: 5.2rem;
+  }
+
+  .form-heading {
+    font-size: 1.5rem;
+    padding: 1.8rem 6rem;
+  }
+
+  .form-box {
+    padding: 2.2rem 2.2rem 3rem 2.2rem;
+  }
+
+  .sign-up-form input {
+    padding: 1.5rem 1.8rem;
+  }
+
+  .terms-text {
+    padding: 0 2rem;
+    line-height: 1.8;
+  }
+}

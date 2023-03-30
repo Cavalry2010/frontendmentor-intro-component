@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="./js/script.js"></script>
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main>
+      <div class="container align-center">
+        <div class="grid-box">
+          <div class="text-col">
+            <h1 class="primary-heading">Learn to code by watching others</h1>
+            <p class="sub-heading">
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
+            </p>
+          </div>
+          <div class="form-col">
+            <p class="form-heading">
+              <span>Try it free 7 days</span> then $20/mo. thereafter
+            </p>
+            <div class="form-box">
+              <form class="sign-up-form" name="sign-up-form">
+                <div>
+                  <input
+                    id="first-name"
+                    type="text"
+                    placeholder="First Name"
+                    name="first-name"
+                    required
+                    aria-describedby="first-name-alert"
+                  />
+                  <p
+                    id="first-name-alert"
+                    class="form-message first-name-message"
+                    aria-live="polite"
+                  ></p>
+                  <img
+                    class="error-icon"
+                    src="./images/icon-error.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <input
+                    id="last-name"
+                    type="text"
+                    placeholder="Last Name"
+                    name="last-name"
+                    required
+                    aria-describedby="last-name-alert"
+                  />
+                  <p
+                    id="last-name-alert"
+                    class="form-message last-name-message"
+                    aria-live="polite"
+                  ></p>
+                  <img
+                    class="error-icon"
+                    src="./images/icon-error.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <input
+                    id="mail"
+                    type="email"
+                    placeholder="Email Address"
+                    name="email"
+                    required
+                    aria-describedby="email-alert"
+                  />
+                  <p
+                    id="email-alert"
+                    class="form-message email-message"
+                    aria-live="polite"
+                  ></p>
+                  <img
+                    class="error-icon"
+                    src="./images/icon-error.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <input
+                    id="password"
+                    type="password"
+                    placeholder="Password"
+                    name="password"
+                    required
+                    aria-describedby="password-alert"
+                  />
+                  <p
+                    id="password-alert"
+                    class="form-message password-message"
+                    aria-live="polite"
+                  >
+                    Maincra is wrong
+                  </p>
+                  <img
+                    class="error-icon"
+                    src="./images/icon-error.svg"
+                    alt=""
+                  />
+                </div>
+                <button class="submit-btn" type="submit">
+                  Claim your free trial
+                </button>
+                <p class="success-msg">Thank you for signing up!</p>
+              </form>
+              <p class="terms-text">
+                By clicking the button, you are agreeing to our
+                <a href="#">Terms and Services</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alejandro Perdomo</a>.
+      </p>
+    </footer>
+  </body>
+</html>
