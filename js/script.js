@@ -58,8 +58,8 @@ class App {
   }
 
   showError(elements, msg, child, ele, placeholder) {
-    const message = elements[1];
-    const icon = elements[2];
+    const message = elements[2];
+    const icon = elements[3];
     if (msg === "mail") {
       message.textContent = "Looks like this is not an email";
     } else if (msg === "pw") {
